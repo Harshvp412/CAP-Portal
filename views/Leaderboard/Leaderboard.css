@@ -1,0 +1,8 @@
+.leaderboard-container {
+    margin: 0 16em 3em 16em;
+}
+@media (max-width: 576px) {
+    .leaderboard-container {
+        margin: 0 1em 3em 1em;
+    }
+}

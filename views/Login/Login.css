@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .login-container {
+        min-width: 730px !important;
+    }
+}
+@media (min-width: 425px) {
+    .loginCard {
+        min-width: 500px !important;
+    }
+    .login-container {
+        padding: 30px;
+    }
+}
+@media (max-width: 425px) {
+    .login-container,
+    .loginCard {
+        width: 100vw !important;
+        padding: 0px !important;
+        background-color: transparent !important;
+    }
+}
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}

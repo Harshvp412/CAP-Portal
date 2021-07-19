@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+    .register-form-container {
+        max-width: 600px !important;
+    }
+}
+@media (max-width: 425px) {
+    .register-form-container {
+        padding: 15px !important;
+    }
+    .registerCard {
+        width: 100vw !important;
+        padding: 0px !important;
+        background-color: transparent !important;
+    }
+}
+.register-form-container {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    /*https://stackoverflow.com/a/53090598/12172493 */
+    flex: 1;
+}
